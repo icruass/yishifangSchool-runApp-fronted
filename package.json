@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "uview-ui": "^2.0.31",
+    "zustand-vue": "^1.0.0-beta.20"
+  }
+}
