@@ -2,21 +2,40 @@
 	"pages": [
 		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/login",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "登陆"
 			}
 		},
+
 		{
-			"path": "pages/demo/index",
+			"path": "pages/runOverview",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "运动",
+				"navigationBarBackgroundColor": "#e6f7ff"
 			}
 		},
+
 		{
-			"path": "pages/userCenter/index",
+			"path": "pages/my",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/runEntrance",
+			"style": {
+				"navigationBarTitleText": "开始跑步",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "首页"
 			}
 		}
 	],

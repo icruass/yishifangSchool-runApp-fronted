@@ -5,6 +5,7 @@ import useRequest from './useRequest'
 export default API;
 
 export {
-  request,
-  useRequest,
+	API,
+	request,
+	useRequest,
 }

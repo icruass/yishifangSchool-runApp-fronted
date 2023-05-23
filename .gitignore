@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/uni_modules
 /npm-debug.log*
 /yarn-error.log
 /yarn.lock
@@ -11,4 +10,5 @@
 # production
 /dist
 /nginx
+/unpackage
 

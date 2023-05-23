@@ -52,9 +52,16 @@
 	"mp-weixin": {
 		"appid": "wxdfa3ee56f3ecb102",
 		"setting": {
-			"urlCheck": false
+			"urlCheck": false,
+			"es6": true,
+			"minified": true
 		},
-		"usingComponents": true
+		"usingComponents": true,
+		"permission": {
+			"scope.userLocation": {
+				"desc": "跑步需要获取您的位置"
+			}
+		}
 	},
 	"mp-alipay": {
 		"usingComponents": true
@@ -77,6 +84,14 @@
 					"target": "http://124.232.146.72:7006/lpt_web/",
 					"changeOrigin": true,
 					"secure": false
+				},
+				"/dev-api/": {
+					"target": "http://192.168.2.32:8089/",
+					"changeOrigin": true,
+					"secure": false,
+					"pathRewrite": {
+						"^/dev-api/": ""
+					}
 				}
 			}
 		},
